@@ -1,0 +1,78 @@
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\ATOS v1.1\ATOS v1.1\bin\ATOS v1.1.dll.config
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\ATOS v1.1\ATOS v1.1\bin\ATOS v1.1.dll
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\ATOS v1.1\ATOS v1.1\bin\ATOS v1.1.pdb
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\ATOS v1.1\ATOS v1.1\bin\Antlr3.Runtime.dll
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\ATOS v1.1\ATOS v1.1\bin\EntityFramework.dll
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\ATOS v1.1\ATOS v1.1\bin\EntityFramework.SqlServer.dll
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\ATOS v1.1\ATOS v1.1\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\ATOS v1.1\ATOS v1.1\bin\Newtonsoft.Json.dll
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\ATOS v1.1\ATOS v1.1\bin\System.Web.Helpers.dll
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\ATOS v1.1\ATOS v1.1\bin\System.Web.Mvc.dll
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\ATOS v1.1\ATOS v1.1\bin\System.Web.Optimization.dll
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\ATOS v1.1\ATOS v1.1\bin\System.Web.Razor.dll
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\ATOS v1.1\ATOS v1.1\bin\System.Web.WebPages.Deployment.dll
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\ATOS v1.1\ATOS v1.1\bin\System.Web.WebPages.dll
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\ATOS v1.1\ATOS v1.1\bin\System.Web.WebPages.Razor.dll
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\ATOS v1.1\ATOS v1.1\bin\WebGrease.dll
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\ATOS v1.1\ATOS v1.1\bin\EntityFramework.xml
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\ATOS v1.1\ATOS v1.1\bin\EntityFramework.SqlServer.xml
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\ATOS v1.1\ATOS v1.1\bin\System.Web.Helpers.xml
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\ATOS v1.1\ATOS v1.1\bin\System.Web.Mvc.xml
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\ATOS v1.1\ATOS v1.1\bin\System.Web.Optimization.xml
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\ATOS v1.1\ATOS v1.1\bin\System.Web.Razor.xml
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\ATOS v1.1\ATOS v1.1\bin\System.Web.WebPages.xml
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\ATOS v1.1\ATOS v1.1\bin\System.Web.WebPages.Deployment.xml
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\ATOS v1.1\ATOS v1.1\bin\System.Web.WebPages.Razor.xml
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\ATOS v1.1\ATOS v1.1\bin\Newtonsoft.Json.xml
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\ATOS v1.1\ATOS v1.1\bin\Antlr3.Runtime.pdb
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\ATOS v1.1\ATOS v1.1\bin\ru\System.Web.Helpers.resources.dll
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\ATOS v1.1\ATOS v1.1\bin\ru\System.Web.Mvc.resources.dll
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\ATOS v1.1\ATOS v1.1\bin\ru\System.Web.Optimization.resources.dll
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\ATOS v1.1\ATOS v1.1\bin\ru\System.Web.Razor.resources.dll
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\ATOS v1.1\ATOS v1.1\bin\ru\System.Web.WebPages.resources.dll
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\ATOS v1.1\ATOS v1.1\bin\ru\System.Web.WebPages.Deployment.resources.dll
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\ATOS v1.1\ATOS v1.1\bin\ru\System.Web.WebPages.Razor.resources.dll
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\ATOS v1.1\ATOS v1.1\obj\Debug\ATOS v1.1.csprojResolveAssemblyReference.cache
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\ATOS v1.1\ATOS v1.1\obj\Debug\ATOS v1.1.dll
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\ATOS v1.1\ATOS v1.1\obj\Debug\ATOS v1.1.pdb
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\ATOS v1.1\ATOS v1.1\bin\System.Web.Providers.dll
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\ATOS v1.1\ATOS v1.1\bin\System.Web.Providers.xml
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\Прост\ATOS v1.1\ATOS v1.1\bin\ATOS v1.1.dll.config
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\Прост\ATOS v1.1\ATOS v1.1\bin\ATOS v1.1.dll
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\Прост\ATOS v1.1\ATOS v1.1\bin\ATOS v1.1.pdb
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\Прост\ATOS v1.1\ATOS v1.1\bin\Antlr3.Runtime.dll
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\Прост\ATOS v1.1\ATOS v1.1\bin\EntityFramework.dll
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\Прост\ATOS v1.1\ATOS v1.1\bin\EntityFramework.SqlServer.dll
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\Прост\ATOS v1.1\ATOS v1.1\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\Прост\ATOS v1.1\ATOS v1.1\bin\Newtonsoft.Json.dll
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\Прост\ATOS v1.1\ATOS v1.1\bin\System.Web.Helpers.dll
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\Прост\ATOS v1.1\ATOS v1.1\bin\System.Web.Mvc.dll
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\Прост\ATOS v1.1\ATOS v1.1\bin\System.Web.Optimization.dll
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\Прост\ATOS v1.1\ATOS v1.1\bin\System.Web.Providers.dll
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\Прост\ATOS v1.1\ATOS v1.1\bin\System.Web.Razor.dll
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\Прост\ATOS v1.1\ATOS v1.1\bin\System.Web.WebPages.Deployment.dll
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\Прост\ATOS v1.1\ATOS v1.1\bin\System.Web.WebPages.dll
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\Прост\ATOS v1.1\ATOS v1.1\bin\System.Web.WebPages.Razor.dll
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\Прост\ATOS v1.1\ATOS v1.1\bin\WebGrease.dll
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\Прост\ATOS v1.1\ATOS v1.1\bin\EntityFramework.xml
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\Прост\ATOS v1.1\ATOS v1.1\bin\EntityFramework.SqlServer.xml
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\Прост\ATOS v1.1\ATOS v1.1\bin\System.Web.Providers.xml
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\Прост\ATOS v1.1\ATOS v1.1\bin\System.Web.Helpers.xml
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\Прост\ATOS v1.1\ATOS v1.1\bin\System.Web.Mvc.xml
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\Прост\ATOS v1.1\ATOS v1.1\bin\System.Web.Optimization.xml
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\Прост\ATOS v1.1\ATOS v1.1\bin\System.Web.Razor.xml
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\Прост\ATOS v1.1\ATOS v1.1\bin\System.Web.WebPages.xml
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\Прост\ATOS v1.1\ATOS v1.1\bin\System.Web.WebPages.Deployment.xml
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\Прост\ATOS v1.1\ATOS v1.1\bin\System.Web.WebPages.Razor.xml
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\Прост\ATOS v1.1\ATOS v1.1\bin\Newtonsoft.Json.xml
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\Прост\ATOS v1.1\ATOS v1.1\bin\Antlr3.Runtime.pdb
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\Прост\ATOS v1.1\ATOS v1.1\bin\ru\System.Web.Helpers.resources.dll
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\Прост\ATOS v1.1\ATOS v1.1\bin\ru\System.Web.Mvc.resources.dll
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\Прост\ATOS v1.1\ATOS v1.1\bin\ru\System.Web.Optimization.resources.dll
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\Прост\ATOS v1.1\ATOS v1.1\bin\ru\System.Web.Razor.resources.dll
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\Прост\ATOS v1.1\ATOS v1.1\bin\ru\System.Web.WebPages.resources.dll
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\Прост\ATOS v1.1\ATOS v1.1\bin\ru\System.Web.WebPages.Deployment.resources.dll
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\Прост\ATOS v1.1\ATOS v1.1\bin\ru\System.Web.WebPages.Razor.resources.dll
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\Прост\ATOS v1.1\ATOS v1.1\obj\Debug\ATOS v1.1.csprojResolveAssemblyReference.cache
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\Прост\ATOS v1.1\ATOS v1.1\obj\Debug\ATOS v1.1.dll
+C:\Users\kiril\OneDrive\Документы\Visual Studio 2013\Projects\Прост\ATOS v1.1\ATOS v1.1\obj\Debug\ATOS v1.1.pdb

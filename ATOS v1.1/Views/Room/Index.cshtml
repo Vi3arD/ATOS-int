@@ -1,0 +1,97 @@
+﻿@model IEnumerable<ATOS_v1._1.Models.Room>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>List room</h2>
+
+@if (User.IsInRole("admin"))
+{
+<p>
+    <a class="a-action" href="/Room/Create/">
+        <span class="glyphicon glyphicon-plus"></span>
+        Add room
+    </a>
+</p>
+}
+
+<div class="row">
+    <div class="col-sm-6 col-xs-12">
+        <h3>Rooms</h3>
+        @foreach (var item in Model)
+        {
+            <div class="row row-list-room">
+                <div class="col-xs-12">
+                    @Html.ActionLink("" + @Html.DisplayFor(modelItem => item.Name), "Details", new { id = item.Id }, new { @class = "link-detail-room no-underline-link" })
+                </div>
+                <div class="col-xs-5">
+                    Chairs: @Html.DisplayFor(modelItem => item.CountChair)
+                </div>
+                <div class="col-xs-4">
+                    @if (item.IsBlackboard)
+                    {
+                        <span class="glyphicon glyphicon-file"></span>
+                    }
+                    @if (item.IsProjector)
+                    {
+                        <span class="glyphicon glyphicon-facetime-video"></span>
+                    }
+                </div>
+                <div class="col-xs-3">
+                    @if (User.IsInRole("admin"))
+                    {
+                        <a class="no-underline-link" href="/Room/Edit/@item.Id">
+                            <span class="glyphicon glyphicon-pencil"></span>
+                        </a>
+                        <span>&nbsp;</span>
+                        <a class="no-underline-link" href="/Room/Delete/@item.Id">
+                            <span class="glyphicon glyphicon-remove"></span>
+                        </a>
+                    }
+                </div>
+                <div class="col-xs-12">
+                    <span class="add-row-table">
+                        @try
+                        {
+                            <span>@ViewBag.FirstBooking[@item.Id].DateStart.ToString("H:mm")</span>
+                            <span> - </span>
+                            <span>@ViewBag.FirstBooking[@item.Id].DateEnd.ToString("H:mm")</span>
+                        }
+                        catch (Exception ex)
+                        {
+                            <span class="span-free">Room is free</span>
+                        }
+                    </span>
+                </div>
+                <div class="col-xs-12 divider"></div>
+            </div>
+        }
+    </div>
+
+
+    @if (User.IsInRole("admin"))
+    {
+        <div class="col-sm-6 col-xs-12">
+            <h3>Manage</h3>
+            <div id="results" class="row">
+                @{
+                    Html.RenderAction("List", "Book");
+                }
+            </div>
+        </div>
+    }
+
+    @if (!User.IsInRole("admin"))
+    {
+        <div class="col-sm-6 col-xs-12">
+            <h3>Alerts</h3>
+            <div id="results_u">
+                @{
+                    Html.RenderAction("List", "Alert");
+                }
+            </div>
+        </div>
+    }
+</div>

@@ -1,0 +1,109 @@
+﻿@model ATOS_v1._1.Models.Room
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details @Html.DisplayFor(model => model.Name)</h2>
+
+<div class="row">
+    <div class="col-sm-1 col-xs-4">
+        <a class="a-action" href="/Room/Index">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            Back
+        </a>
+    </div>
+    <div class="col-sm-1 col-xs-4">
+        <a class="a-action" href="/Book/Create/@Model.Id">
+            <span class="glyphicon glyphicon-book"></span>
+            Book
+        </a>
+    </div>
+    <div class="col-sm-1 col-xs-4">
+        <a class="a-action" href="/Room/Edit/@Model.Id">
+            <span class="glyphicon glyphicon-pencil"></span>
+            Edit
+        </a>
+    </div>
+</div> 
+<hr />
+
+<div class="row">
+    <div class="col-sm-6 col-xs-12">
+        <dl class="dl-horizontal table-details-room">
+            <dt>
+                @Html.DisplayNameFor(model => model.Name)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Name)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.CountChair)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.CountChair)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.IsBlackboard)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.IsBlackboard)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.IsProjector)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.IsProjector)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Description)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Description)
+            </dd>
+
+        </dl>
+    </div>
+
+    <div class="col-sm-6 col-xs-12">
+        <h3 class="h3-book-details">Books</h3>
+        <div class="row head-table-row-mini">
+            <div class="col-sm-4 col-xs-4">
+                Description
+            </div>
+            <div class="col-sm-4 col-xs-4">
+                Start
+            </div>
+            <div class="col-sm-4 col-xs-4">
+                End
+            </div>
+        </div>
+        <hr class="hr-re" />
+        @foreach (var b in ViewBag.Books)
+        {
+            <div class="row">
+                <div class="col-sm-4 col-xs-4">
+                    @b.Description
+                </div>
+
+                <div class="col-sm-4 col-xs-4">
+                    @b.DateStart.ToString("dd.MM.yyyy H:mm")
+                </div>
+
+                <div class="col-sm-4 col-xs-4">
+                    @b.DateEnd.ToString("dd.MM.yyyy H:mm")
+                </div>
+            </div>
+        }
+    </div>
+</div>

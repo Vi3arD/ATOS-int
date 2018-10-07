@@ -1,0 +1,17 @@
+﻿@model IEnumerable<ATOS_v1._1.Models.Book>
+
+
+    <div class="col-xs-12">
+        @foreach (var book in Model)
+        {
+            <div class="row booking-row" id="booking_@book.IdBook">
+                <div class="col-xs-4">@book.Description</div>
+                <div class="col-xs-5">@book.DateStart.ToString("dd.MM H:mm") - @book.DateEnd.ToString("dd.MM HH:mm")</div>
+                <div class="col-xs-3">
+                    <a onclick="BookAcceptDenide(@book.IdBook,'Denide', 'booking_@book.IdBook', 'Book');"><span class="glyphicon glyphicon-remove"></span></a>
+                    <span>&nbsp;</span>
+                    <a onclick="BookAcceptDenide(@book.IdBook,'Accept', 'booking_@book.IdBook', 'Book');"><span class="glyphicon glyphicon-ok"></span></a>
+                </div>
+            </div>
+        }
+    </div>

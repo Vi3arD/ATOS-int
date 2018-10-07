@@ -1,0 +1,313 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+.head-table-row{
+    height: 26px;
+    border-bottom: 1px solid rgba(147, 147, 147, 0.8);
+    margin-bottom: 6px;
+}
+
+
+.head-table-row div{
+    font-size: 16px;
+}
+
+.a-action{
+    font-size: 16px;
+}
+
+.div-action{
+    margin-bottom: 10px;
+}
+
+.row-table{
+    border-bottom: 1px solid rgba(147, 147, 147, 0.5);
+    margin-bottom: 6px;
+}
+
+
+.add-row-table{
+    padding: 3px 0px 3px 30px;
+}
+
+.booking-row{
+    padding-left: 15px;
+    margin-bottom: 7px;
+}
+
+.input-rem{
+    border-radius: 3px;
+    border: 1px solid #cccccc;
+    color: #333;
+    padding-left: 5px;
+    height: 28px;
+}
+
+/*re-design*/
+.navbar-re{
+    -webkit-box-shadow: 0px 4px 7px 0px rgba(186,182,186,1);
+    -moz-box-shadow: 0px 4px 7px 0px rgba(186,182,186,1);
+    box-shadow: 0px 4px 7px 0px rgba(186,182,186,1);
+    background: #fff;
+}
+
+.navbar-toggle .icon-bar{
+    background: #575757; 
+}
+
+.login-li{
+    display: flex !important;
+}
+
+.login-li div{
+    color: #575757;
+    padding-top: 15px;
+}
+
+.login-ul{
+    float: right;
+}
+
+.nav > li > a:hover, .nav > li > a:focus{
+    background-color: #fff;
+    text-decoration: underline;
+    color: #000; 
+}
+
+a{
+    color: #575757;
+}
+
+a:hover, a:focus{
+    text-decoration: underline;
+    color: #000;
+}
+
+.no-underline-link:hover, .no-underline-link:focus{
+     text-decoration: none !important;
+}
+
+.link-detail-room{
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.divider{
+    border-bottom: 1px solid #eeeeee;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    /*float: right;
+    width: 98%;*/
+}
+
+.row-list-room{
+    margin: 0px;
+}
+
+.span-free{
+    display: inline-block;
+    margin-left: -10px;
+    padding: 1px 5px;
+    border-radius: 3px;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    background-color: #d4edda;
+}
+
+.glyphicon {
+    font-size: 18px !important; 
+    top: 2px !important;
+}
+
+.h3-book-details{
+    margin-top: 0px;
+}
+
+.head-table-row-mini > div{
+    font-size: 16px;
+}
+
+.hr-re{
+    margin: 0px;
+}
+
+input[type="text"]{
+    width: 100%;
+    height: 28px;
+    padding-left: 5px;
+    border: none;
+    color: #575757;
+    border-bottom: 1px solid #000;
+}
+
+input[type="password"]{
+    width: 100%;
+    height: 28px;
+    padding-left: 5px;
+    border: none;
+    color: #575757;
+    border-bottom: 1px solid #000;
+}
+
+input[type="datetime-local"]{
+    height: 28px;
+    padding: 1px 5px;
+    color: #575757;
+    font-size: 16px;
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+
+input[type="checkbox"]{
+    height: 22px;
+    width: 4%;
+}
+
+input[type="number"]{
+    width: 10%;
+    height: 28px;
+    padding-left: 5px;
+    border: none;
+    color: #575757;
+    border-bottom: 1px solid #000;
+}
+
+input[type="text"]:focus, input[type="number"]:focus, input[type="password"]:focus{
+    outline: none;
+    border-bottom-width: 2px;
+}
+
+select{
+    width: 100% !important;
+    height: 28px !important;
+    padding-left: 5px !important;
+    border: none !important;
+    color: #575757 !important;
+    border-bottom: 1px solid #000 !important;
+}
+
+select:focus{
+    outline: none !important;
+    border-bottom-width: 2px !important;
+}
+
+.btn-default{
+    background: #343a40;
+    color: #fff;
+    border-color: #343a40;
+    width: 100%;
+}
+
+.btn-default:hover{
+    color: #fff !important;
+    background-color: #1d2124!important;
+    border-color: #171a1d!important;
+}
+
+input, select, textarea {
+    max-width: 100%;
+}
+
+.btn-default:focus, .btn-default:active  {
+    color: #fff;
+    background-color: #1d2124;
+    border-color: #171a1d;
+    box-shadow: 0 0 0 0.2rem rgba(52,58,64,.5);
+}
+
+input[disabled="disabled"]{
+    height: auto !important;
+    width: auto !important;
+}
+
+.btn-link, .btn-link:hover, .btn-link:focus{
+    color: #575757;
+    width: 100%;
+    margin-top: 2px;
+}
+
+.clear-alert{
+   float: right;
+}
+
+.bg-alert-accept {
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    background-color: #d4edda;
+}
+
+.bg-alert-denide {
+    color: #721c24;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+}
+
+.bg-alert-row {
+    border-radius: 3px;
+    margin-bottom: 2px;
+    padding: 3px;
+}
+
+.bg-alert-row > div > a{
+    color: #575757;
+}
+
+@media screen and (max-width: 760px){
+    .login-ul{
+        float: left;
+    }
+
+    .table-details-room > dt{
+        display: inline-block;
+        width: 40%;
+    }
+
+    .table-details-room > dd{
+        display: inline-block;
+        width: 55%;
+    }
+
+    input[type="checkbox"]{
+        width: 10%;
+    }
+}

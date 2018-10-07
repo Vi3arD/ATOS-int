@@ -1,0 +1,35 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="row">
+    <div class="col-xs-12">
+        <h3>Main menu</h3>
+    </div>
+    <div class="col-xs-12">
+        <a class="a-action" href="/Room/Index/">
+            <span class="glyphicon glyphicon-home"></span>
+            List rooms
+        </a>
+    </div>
+@if (User.IsInRole("admin")) { 
+    <div class="col-xs-12">
+        <a class="a-action" href="/Account/Index/">
+            <span class="glyphicon glyphicon-user"></span>
+            List users
+        </a>
+    </div>
+}
+    <div class="col-xs-12">
+        <a class="a-action" href="/Home/About/">
+            <span class="glyphicon glyphicon-star"></span>
+            About
+        </a>
+    </div>
+    <div class="col-xs-12">
+        <a class="a-action" href="/Home/Contact/">
+            <span class="glyphicon glyphicon-phone-alt"></span>
+            Contact
+        </a>
+    </div>
+</div>

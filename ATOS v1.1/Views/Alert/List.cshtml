@@ -1,0 +1,24 @@
+﻿@model IEnumerable<ATOS_v1._1.Models.Alert>
+
+<div class="col-sm-8 col-xs-12">
+    @foreach (var a in Model)
+    {
+        <div class="row bg-alert-row
+             @if (a.Status == 1)
+             {
+                 Write("bg-alert-accept");
+             }
+             @if (a.Status == -1)
+             {
+                 Write("bg-alert-denide");
+             }
+             " id="alert_@a.Id">
+            <div class="col-xs-10">
+                @a.Name
+            </div>
+            <div class="col-xs-2">
+                <a onclick="BookAcceptDenide(@a.Id,'Viewed', 'alert_@a.Id', 'Alert');"><span class="glyphicon glyphicon-remove clear-alert"></span></a>
+            </div>
+        </div>
+    }
+</div>
